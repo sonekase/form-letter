@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A personal letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter your name for a personal letter!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="person1">name</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me the letter!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>A personal letter</h1>
+        <p>Dear <span class="person1"></span>,<br>
+          Congratulations on completing your first week of Epicodus.  A school that was recently awarded 5* bootcamp.  Don't you feel good about yoursel now for making the right decision?
+          <br>
+          P.S. Thank you for your prompt payment.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
